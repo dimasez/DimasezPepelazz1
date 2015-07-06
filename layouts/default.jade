@@ -48,7 +48,9 @@ html(class='no-js', lang='')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/#{pkgs.jquery}/jquery.min.js')
     script.
       window.jQuery || document.write('<script src="vendor/#{pkgs.jquery}/jquery.min.js"><\/script>')
-    script(src='js/bundle.js')
+    script(src='#{path}bootstrap.js')
+    script(src='#{path}js/bundle.js')
+
 
     // Google Analytics: change UA-XXXXX-X to be your site's ID.
     script.
